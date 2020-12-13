@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Project-React-Front-End/static/css/main.9ab669d6.chunk.css",
+    "main.js": "/Project-React-Front-End/static/js/main.4392a507.chunk.js",
+    "main.js.map": "/Project-React-Front-End/static/js/main.4392a507.chunk.js.map",
+    "runtime-main.js": "/Project-React-Front-End/static/js/runtime-main.1813d6c3.js",
+    "runtime-main.js.map": "/Project-React-Front-End/static/js/runtime-main.1813d6c3.js.map",
+    "static/css/2.04f6bfcc.chunk.css": "/Project-React-Front-End/static/css/2.04f6bfcc.chunk.css",
+    "static/js/2.012d12a0.chunk.js": "/Project-React-Front-End/static/js/2.012d12a0.chunk.js",
+    "static/js/2.012d12a0.chunk.js.map": "/Project-React-Front-End/static/js/2.012d12a0.chunk.js.map",
+    "index.html": "/Project-React-Front-End/index.html",
+    "static/css/2.04f6bfcc.chunk.css.map": "/Project-React-Front-End/static/css/2.04f6bfcc.chunk.css.map",
+    "static/css/main.9ab669d6.chunk.css.map": "/Project-React-Front-End/static/css/main.9ab669d6.chunk.css.map",
+    "static/js/2.012d12a0.chunk.js.LICENSE.txt": "/Project-React-Front-End/static/js/2.012d12a0.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/Project-React-Front-End/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1813d6c3.js",
+    "static/css/2.04f6bfcc.chunk.css",
+    "static/js/2.012d12a0.chunk.js",
+    "static/css/main.9ab669d6.chunk.css",
+    "static/js/main.4392a507.chunk.js"
+  ]
+}
