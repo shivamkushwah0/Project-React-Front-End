@@ -19,7 +19,7 @@ export const postComment = (dishId , rating , author , comment) => (dispatch) =>
     }
     comments.date = new Date().toISOString();
 
-    return fetch (baseUrl + "comments.js" , {
+    return fetch (baseUrl + "comments.json" , {
         method : "POST" ,
         headers : {
             "Content-Type" : "application/json"
@@ -56,7 +56,7 @@ export const postComment = (dishId , rating , author , comment) => (dispatch) =>
 export const fetchDishes = () => (dispatch) => {
     dispatch(dishesLoading(true));
 
-    return fetch(baseUrl+"dishes.js")
+    return fetch(baseUrl+"dishes.json")
     .then(response => {
         
         if(response.ok)
@@ -98,7 +98,7 @@ export const dishFailed = (mess) => {
 export const fetchPromos = () => (dispatch) => {
     dispatch(promosLoading(true));
 
-    return fetch(baseUrl+"promotions.js")
+    return fetch(baseUrl+"promotions.json")
     .then(response => {
         if(response.ok)
         return response;
@@ -137,7 +137,7 @@ export const promosFailed = (mess) => {
 }
 export const fetchComments = () => (dispatch) => {
     
-    return fetch(baseUrl+"comments.js")
+    return fetch(baseUrl+"comments.json")
     .then(response => {
         if(response.ok)
         return response;
@@ -191,7 +191,7 @@ export const leadersLoading = () =>
 export const fetchLeaders = () => (dispatch) => {
     dispatch( leadersLoading(true)) ;
     
-   return  fetch(baseUrl + "leaders.js")
+   return  fetch(baseUrl + "leaders.json")
     .then(response => {
         if(response.ok)
         return response ; 
@@ -215,7 +215,7 @@ export const fetchLeaders = () => (dispatch) => {
 }
 
 export const postfeedback = (feedback , author, email , conType , contact , agree) => (dispatch) => {
-    fetch(baseUrl + "feedback.js" , {
+    fetch(baseUrl + "feedback.json" , {
         method : "POST",
         headers : {
             "Content-Type" : "application/json"
