@@ -33,7 +33,7 @@ export const postComment = (dishId , rating , author , comment) => (dispatch) =>
         return response;
         else 
         {
-            var error = new Error("ERROR : " + response.statusText + response.statusText)
+            var error = new Error("ERROR : " + response.status + response.statusText)
             error.response = response;
             console.log(error);
             throw error;
@@ -63,7 +63,7 @@ export const fetchDishes = () => (dispatch) => {
         return response;
         else 
         {
-            var error = new Error("ERROR : " + response.statusText + response.statusText)
+            var error = new Error("ERROR : " + response.status + response.statusText)
             error.response = response;
             console.log(error);
             throw error;
@@ -104,7 +104,7 @@ export const fetchPromos = () => (dispatch) => {
         return response;
         else 
         {
-            var error = new Error("ERROR : " + response.statusText + response.statusText)
+            var error = new Error("ERROR : " + response.status + response.statusText)
             error.response = response;
             console.log(error);
             throw error;
@@ -143,7 +143,7 @@ export const fetchComments = () => (dispatch) => {
         return response;
         else 
         {
-            var error = new Error("ERROR : " + response.statusText + response.statusText)
+            var error = new Error("ERROR : " + response.status + response.statusText)
             error.response = response;
             console.log(error);
             throw error;
